@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black; 
+    background: white; 
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background: #859ed5; 
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black; 
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: black; /* Hover state turns links black */
+}
+
+.hero {
+    text-align: center;
+    background: #859ed5; /* Light blue */
+    color: white;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background: #f0f0f0; /* Light gray background */
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    color: #859ed5; /* Blue color for section title */
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: black; /* Text color for paragraph */
+}
+
+/* Products Section */
+.products {
+    padding: 50px 0;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #859ed5; /* Title in blue */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: black; /* Product card text in black */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Set max width for the image */
+    max-height: 251px; /* Set max height for the image */
+    object-fit: cover; /* Ensures the image covers the area proportionally */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black; /* Product title in black */
+}
+
+.product-card button {
+    background: #859ed5; /* Button in blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card button:hover {
+    background: black; /* Hover state for button becomes black */
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background: #f0f0f0; /* Light gray background */
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    color: #859ed5; /* Blue color for title */
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    color: black; /* Form input text in black */
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #859ed5; /* Button in blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: black; 
+}
+
+/* Footer Section */
+.footer {
+    background: #859ed5; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer p {
+    color: black; 
+}
+
